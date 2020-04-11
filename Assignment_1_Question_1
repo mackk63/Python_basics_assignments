@@ -1,0 +1,10 @@
+n = list(range(2000,3201))
+a = []
+b = []
+for i in n:
+    if (i%7==0):
+        a.append(i)
+for j in a:
+    if (j%5!=0):
+        b.append(j)
+print(*b, sep = ", ", end = ".")
